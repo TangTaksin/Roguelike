@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 634875234}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 4, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -266,8 +266,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1081066749}
   - component: {fileID: 1081066748}
+  - component: {fileID: 1081066750}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: LevelManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,6 +302,29 @@ Transform:
   - {fileID: 1991583696}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1081066750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081066747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8d63c3b0131984488bd8160bc4a09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Width: 8
+  Height: 8
+  GroundTiles:
+  - {fileID: 11400000, guid: ee127e74113b4394288ec20d50abbc60, type: 2}
+  - {fileID: 11400000, guid: 8e804e3199c5aa84f8d8c739e7796057, type: 2}
+  - {fileID: 11400000, guid: 35ae6c91ab8522443b678bcedf827052, type: 2}
+  - {fileID: 11400000, guid: 73ddd5397b321d3469c76b11ab7f1b73, type: 2}
+  - {fileID: 11400000, guid: d068ccc38a8240d4688aa912ca116c1d, type: 2}
+  - {fileID: 11400000, guid: aff5743275e53be4ab80d2371e03117c, type: 2}
+  - {fileID: 11400000, guid: bbedc0ad7a9f71a418122eef1e7eadb5, type: 2}
+  - {fileID: 11400000, guid: 61ee2b93ca31ecd4aab59f0cec013076, type: 2}
 --- !u!1 &1991583695
 GameObject:
   m_ObjectHideFlags: 0
